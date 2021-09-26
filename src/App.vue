@@ -58,7 +58,7 @@
             </ul>
           </div>
         </div>
-        <div class="col d-flex justify-content-center align-items-center mb-4">
+        <div class="col d-flex justify-content-center align-items-center">
           <a
             href="https://github.com/breakermoob"
             target="_blank"
@@ -91,7 +91,14 @@
             <i class="fab fa-speaker-deck fa-2x arq-mf-icon"></i
           ></a>
         </div>
-        <p class="text-center text-secondary border-top border-secondary py-4">
+        <p
+          class="
+            text-center text-secondary
+            border-top border-secondary
+            py-4
+            mb-0
+          "
+        >
           Arquitectura Microfrontends por Leon Arango © 2021
         </p>
       </div>
@@ -119,13 +126,11 @@ export default {
 </script>
 
 <style>
-#app {
-  margin-top: 60px;
-}
-
-.arq-mf-icon,
-.arq-mf-icon--center {
+.arq-mf-icon {
   color: #4b5055;
+}
+.arq-mf-icon--center {
+  color: #42b883;
 }
 .arq-mf-icon:hover {
   color: #6a7179;
