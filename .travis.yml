@@ -14,7 +14,6 @@ script:
   - echo "Commit sha - $TRAVIS_COMMIT"
   - mkdir -p dist/@microfrontends/mf-footer/
   - mv dist/*.* dist/@microfrontends/mf-footer/
-  - mv dist/js/*.* dist/@microfrontends/mf-footer/
 deploy:
   provider: s3
   access_key_id: "$AWS_ACCESS_KEY_ID"
