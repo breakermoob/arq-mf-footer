@@ -10,7 +10,7 @@ before_install:
   - pip install -U pip
   - pip install awscli
 script:
-  - yarn build
+  - npm run build:mf-footer
   - echo "Commit sha - $TRAVIS_COMMIT"
   - mkdir -p dist/@microfrontends/mf-footer/$TRAVIS_COMMIT
   - mv dist/*.* dist/@microfrontends/mf-footer/$TRAVIS_COMMIT/
